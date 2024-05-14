@@ -4,20 +4,21 @@
   display: flex;
   height: 8vh;
   background-color: var(--secondary-color);
+  opacity: 70%;
   align-items: center;
   justify-content: space-evenly;
   font-size: 1.5rem;
   color: var(--primary-color);
   font-weight: bolder;
-  div{
+  div {
     display: grid;
     justify-items: center;
   }
-  p{
+  p {
     font-size: 0.5rem;
     justify-self: center;
   }
-  div:hover{
+  div:hover {
     color: var(--hover-color-primary);
     cursor: pointer;
   }
@@ -32,7 +33,7 @@
   font-style: normal;
   font-size: 3.3rem;
   color: var(--primary-color);
-  height: 54vh;
+  height: 52vh;
   width: 100%;
   background-color: var(--secondary-color);
   align-items: center;
@@ -48,100 +49,128 @@
 }
 
 .one {
-    left: 10vw;
-    top: 10vh;
-    rotate: 40deg;
+  left: 10vw;
+  top: 10vh;
+  rotate: 40deg;
 }
 
 .two {
-    left: 44vw;
-    top: 45vh;
-    rotate: -35deg;
+  left: 44vw;
+  top: 45vh;
+  rotate: -35deg;
 }
 
 .three {
-    left: 4vw;
-    top: 35vh;
-    rotate: -25deg;
+  left: 4vw;
+  top: 35vh;
+  rotate: -25deg;
 }
 
 .four {
-    left: 85vw;
-    top: 7vh;
-    rotate: -75deg;
+  left: 85vw;
+  top: 7vh;
+  rotate: -75deg;
 }
 
 .five {
-    left: 60vw;
-    top: 15vh;
-    rotate: -60deg;
+  left: 60vw;
+  top: 15vh;
+  rotate: -60deg;
 }
 
 .six {
-    left: 95vw;
-    top: 38vh;
-    rotate: 20deg;
+  left: 95vw;
+  top: 38vh;
+  rotate: 20deg;
 }
 
 .seven {
-    left: 30vw;
-    top: 30vh;
-    rotate: -30deg;
+  left: 30vw;
+  top: 30vh;
+  rotate: -30deg;
 }
 
 .eight {
-    left: 72vw;
-    top: 28vh;
-    rotate: -28deg;
+  left: 72vw;
+  top: 28vh;
+  rotate: -28deg;
 }
 
 .nine {
-    left: 23vw;
-    top: 4vh;
-    rotate: -20deg;
+  left: 23vw;
+  top: 4vh;
+  rotate: -20deg;
 }
 
 .ten {
-    left: 18vw;
-    top: 44vh;
-    rotate: 18deg;
+  left: 18vw;
+  top: 44vh;
+  rotate: 18deg;
 }
 
-.eleven{
-    left: 36vw;
-    top: 14vh;
-    rotate: 18deg;
+.eleven {
+  left: 36vw;
+  top: 14vh;
+  rotate: 18deg;
 }
 
-.circle{
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: var(--primary-color);
-    border-radius: 100vh;
+.circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary-color);
+  border-radius: 100vh;
 }
 
 .one1 {
-    left: 16vw;
-    top: 29vh;
+  left: 16vw;
+  top: 29vh;
 }
 
 .two2 {
-    left: 46vw;
-    top: 7vh;
+  left: 46vw;
+  top: 7vh;
 }
 
 .three3 {
-    left: 67vw;
-    top: 45vh;
+  left: 67vw;
+  top: 45vh;
 }
 
 .four4 {
-    left: 82vw;
-    top: 34vh;
+  left: 82vw;
+  top: 34vh;
 }
 
 .five5 {
-    left: 97vw;
-    top: 18vh;
+  left: 97vw;
+  top: 18vh;
+}
+
+.topBrands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-color);
+  width: 100%;
+  h2 {
+    color: var(--primary-color);
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10 00;
+    font-style: normal;
+  }
+  .top-brand-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .top-brand-card {
+      width: 12rem;
+      height: 10rem;
+      background-color: var(--secondary-color);
+      border: 5px solid var(--primary-color);
+      margin: 2rem;
+      border-radius: 30px;
+    }
+  }
 }

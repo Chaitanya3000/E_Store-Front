@@ -44,6 +44,17 @@ function Home() {
         <div className="circle four4"></div>
         <div className="circle five5"></div>
       </div>
+      <div className="topBrands">
+        <h2>-- Top Brands --</h2>
+        <div className="top-brand-cards-container">
+          <div className="top-brand-card">
+            
+          </div>
+          <div className="top-brand-card"></div>
+          <div className="top-brand-card"></div>
+          <div className="top-brand-card"></div>
+        </div>
+      </div>
     </>
   );
 }
